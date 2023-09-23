@@ -1,4 +1,5 @@
-package pro.sky.Homework25;
+package pro.sky.Homework25.Employees;
+
 
 import java.util.Objects;
 
@@ -22,8 +23,8 @@ private String lastName;
     @Override
     public String toString() {
         return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                "Имя='" + firstName + '\'' +
+                ", Фамилия='" + lastName + '\'' +
                 '}';
     }
 
